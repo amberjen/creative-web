@@ -1,0 +1,31 @@
+:root {
+  --black: #111;
+}
+
+body { 
+  font-family: 'DM Sans', sans-serif;
+  position: relative; 
+  color: var(--black);
+  font-size: 16px;
+}
+
+canvas { vertical-align: bottom; }
+
+.control-group {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+}
+
+.control-group button {
+  padding: 12px 24px;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-group i { margin-right: 8px; }
+.btn-toggle-sound { margin-right: 12px; }
