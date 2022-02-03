@@ -20,12 +20,16 @@ canvas { vertical-align: bottom; }
 
 .control-group button {
   padding: 12px 24px;
-  border: 1px solid var(--black);
+  font-weight: 500;
+  border: 2px solid var(--black);
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all .2s;
 }
+
+.control-group button:hover { transform: scale(.95); }
 
 .control-group i { margin-right: 8px; }
 .btn-toggle-sound { margin-right: 12px; }
