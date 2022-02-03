@@ -1,0 +1,31 @@
+:root {
+  --black: #111;
+}
+
+body { 
+  font-family: 'Poppins', sans-serif;
+  position: relative; 
+  color: #fff;
+  background: var(--black);
+  font-size: 16px;
+}
+
+canvas { vertical-align: bottom; }
+
+.tutorial {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  background: #1f1f1f;
+  padding: 1rem 1.5rem;
+  font-size: .875rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, .75);
+  line-height: 150%;
+}
+
+.tutorial h2.title {
+  color: #fff;
+  margin-bottom: .25rem;
+}
+
