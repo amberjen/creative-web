@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Coconat Bold';
+  src: url('./fonts/Coconat-BoldExt.woff2') format('woff2'),
+  url('./fonts/Coconat-BoldExt.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Coconat';
+  src: url('./fonts/Coconat-Regular.woff2') format('woff2'),
+  url('./fonts/Coconat-Regular.woff') format('woff');
+}
+
+body { 
+  position: relative; 
+  font-size: 16px;
+  font-family: 'Coconat Bold', sans-serif;
+}
+
+canvas { vertical-align: bottom; }
+
+.heading-group {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+}
+
+h1 {
+  letter-spacing: -.1em;
+  font-size: 4rem;
+  margin-bottom: .5rem;
+}
+
+h2 {
+  letter-spacing: -.05em;
+  font-size: 2rem;
+  font-family: 'Coconat';
+}
