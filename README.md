@@ -13,3 +13,17 @@
 
 - Drag mouse to draw on canvas
 - Save the drawing as jpg file
+
+### 03 Blobby
+
+<img src="./screenshots/03.jpg" width="480" />
+
+- Generative blob
+- Font: Coconat from [Collletttivo](http://collletttivo.it/)
+- Ref: [Making generative art with simple mathematics](https://www.hailpixel.com/articles/generative-art-simple-mathematics)
+
+```
+x: cos
+y: sin
+movement: time
+```
