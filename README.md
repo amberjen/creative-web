@@ -27,3 +27,7 @@ x: cos
 y: sin
 movement: time
 ```
+
+### 04 Nice Gradient
+
+<img src="./screenshots/04.jpg" width="480" />

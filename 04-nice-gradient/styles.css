@@ -1,0 +1,31 @@
+body {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+  font-size: 16px;
+}
+
+.gradient-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(240deg, violet, royalblue);
+}
+
+.layer-2 {
+  mix-blend-mode: hard-light;
+  background: linear-gradient(120deg, pink, salmon);
+}
+
+.btn-generate {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 4rem;
+  font-size: 1.5rem;
+  border: 2px solid #111;
+  padding: 16px 24px;
+  border-radius: 50px;
+}
