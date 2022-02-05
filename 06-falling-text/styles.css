@@ -1,0 +1,5 @@
+body { position: relative; }
+canvas { vertical-align: bottom; }
+html {
+  color: rgb(185, 249, 50);
+}
