@@ -31,3 +31,19 @@ movement: time
 ### 04 Nice Gradient
 
 <img src="./screenshots/04.jpg" width="480" />
+
+### 06 Falling Text
+
+- v1 
+
+<img src="./screenshots/06-1.gif" width="480" />
+  
+- v2
+
+<img src="./screenshots/06-2.gif" width="480" />
+
+
+## Resources
+- [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
+- [Algebra Rules](http://algebrarules.com/)
+- [Math Snippets (with graphic programming in mind)](https://github.com/terkelg/math)
