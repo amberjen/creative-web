@@ -40,7 +40,9 @@ movement: time
   
 - v2
 
-<img src="./screenshots/06-2.gif" width="480" />
+<img src="./screenshots/06-2.gif" width="480" />    
+
+- Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](http://www.flaticon.com/)
 
 
 ## Resources
