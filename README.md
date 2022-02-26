@@ -51,7 +51,7 @@ movement: time
 
 ### 08 Cookie Popup
 
-<img src="./screenshots/08.jpg" width="480" />    
+<img src="./screenshots/08.gif" width="480" />
 
 ## Resources
 - [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
