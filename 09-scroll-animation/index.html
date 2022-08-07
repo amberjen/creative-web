@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Animation</title>
+  <link rel="stylesheet" href="../css-reset.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <header> 
+    <div class="container">
+      <p class="logo">iPhone 13 Pro</p>
+      <nav>
+        <a href="#" class="nav-link">Overview</a>
+        <a href="#" class="nav-link">Switching to iPhone</a>
+        <a href="#" class="nav-link">Tech Specs</a>
+        <a href="#" class="btn-buy">Buy</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section: Hero -->
+  <section class="section-hero">
+    <div class="container">
+      <div class="hero-headings">
+        <h1 class="hero-title">iPhone 13 Pro</h1>
+        <h2 class="hero-subtitle">Oh. So. Pro.</h2>
+        <h3 class="hero-description">iPhone 13 Pro takes a huge leap forward, bringing incredible speed to everything you do and dramatic new photo and video capabilities — all in two great sizes.</h3>
+      </div>
+      
+      <video class="hero-video" autoplay muted src="./assets/videos/intro-animation.mov" ></video>
+    </div>
+  </section>
+  
+
+
+  <!-- GSAP + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+
+  <!-- Custom JS -->
+  <script src="./main.js"></script>
+</body>
+</html>
