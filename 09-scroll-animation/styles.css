@@ -116,3 +116,59 @@ header .btn-buy {
   font-weight: 500;
   max-width: 520px;
 }
+
+/* -------------------------- */
+/*    Section: Split Phone    */
+/* -------------------------- */
+.section-split-phone {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.section-split-phone .text-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.section-split-phone .phone-size {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.section-split-phone .size-pro { text-align: right; }
+.section-split-phone .size-max { text-align-last: left;}
+
+.section-split-phone .product-images {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-split-phone .product-images img {
+  display: inline-block;
+}
+
+.section-split-phone .product-images .phone-lg {
+  position: relative;
+  transform: translateX(25%) scale(.9);
+  z-index: 1;
+}
+
+.section-split-phone .product-images .phone-sm {
+  position: relative;
+  transform: translateX(-25%) scale(.9);
+  z-index: 2;
+}
+
+.section-split-phone .one-liner {
+  position: absolute;
+  left: 50%;
+  bottom: 7%;
+  transform: translateX(-50%);
+  font-weight: 500;
+  font-size: 14px;
+}
