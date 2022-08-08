@@ -4,9 +4,7 @@ body {
   line-height: 1.5;
 }
 
-.container {
-  width: 1100px;
-}
+.container { width: 1100px; }
 
 /* -------------------------- */
 /*           Header           */
@@ -51,7 +49,7 @@ header .btn-buy {
 /*       Section: Hero        */
 /* -------------------------- */
 .section-hero {
-  padding: calc(75px + 64px) 16px 64px;
+  padding: calc(75px + 64px) 16px 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -87,7 +85,34 @@ header .btn-buy {
 
 .hero-video {
   position: absolute;
-  top: -16px;
+  top: 64px;
   right: 0;
-  transform: scale(1.5);
+}
+
+
+/* -------------------------- */
+/*      Section: Smoke        */
+/* -------------------------- */
+.section-smoke {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: rgba(255, 255, 255, .6);
+  padding: 160px 16px;
+}
+.smoke-video {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.section-smoke .description {
+  z-index: 2;
+  font-size: 56px;
+  font-weight: 500;
+  max-width: 520px;
 }
