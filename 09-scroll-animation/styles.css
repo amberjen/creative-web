@@ -49,7 +49,7 @@ header .btn-buy {
 /*       Section: Hero        */
 /* -------------------------- */
 .section-hero {
-  padding: calc(75px + 64px) 16px 0;
+  padding: calc(75px + 104px) 16px 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -143,9 +143,9 @@ header .btn-buy {
 
 .section-split-phone .product-images {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
 }
 
 .section-split-phone .product-images img {
@@ -154,20 +154,20 @@ header .btn-buy {
 
 .section-split-phone .product-images .phone-lg {
   position: relative;
-  transform: translateX(25%) scale(.9);
+  transform: translateX(25%) scale(.8);
   z-index: 1;
 }
 
 .section-split-phone .product-images .phone-sm {
   position: relative;
-  transform: translateX(-25%) scale(.9);
+  transform: translateX(-25%) scale(.8);
   z-index: 2;
 }
 
 .section-split-phone .one-liner {
   position: absolute;
   left: 50%;
-  bottom: 7%;
+  bottom: 15%;
   transform: translateX(-50%);
   font-weight: 500;
   font-size: 14px;
