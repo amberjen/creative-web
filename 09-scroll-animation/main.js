@@ -96,3 +96,34 @@ const tl_split_pin = gsap.timeline({
     end: '100%'
   }
 });
+
+
+// ------- Section Carousel -------
+let swatches = document.querySelectorAll('.color-swatches img');
+let gallery = document.querySelector('.gallery');
+let slides = document.querySelectorAll('.gallery .img-wrapper');
+
+let currentSwatch = 'blue';
+let topIndex = 2;
+
+swatches.forEach((swatch, index) => {
+  let coord = slides[index].getBoundingClientRect().left;
+
+  swatch.addEventListener('click', (e) => {
+    let swatchName = e.target.getAttribute('swatch');
+    let closeUp = document.querySelector(`.closeup.${swatchName}`)
+
+    // If we are on the same swatch
+    if(currentSwatch === swatchName) return;
+
+    // Set up animation
+    gsap.set(closeUp, { zIndex: topIndex});
+    gsap.fromTo(closeUp, { opacity: 0}, {opacity: 1, duration: .5});
+    gsap.to(gallery, { x: -coord, duration: .5, ease: 'Power2.easeOut'});
+
+    topIndex++;
+    currentSwatch = swatchName;
+
+  })
+  
+});

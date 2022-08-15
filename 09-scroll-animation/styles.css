@@ -239,6 +239,9 @@ header .btn-buy {
   transform-origin: bottom;
 }
 
+/* Move blue phone to the 1st one */
+.closeup.blue { z-index: 1; }
+
 /* -------------------------- */
 /*      Section: Product      */
 /* -------------------------- */
