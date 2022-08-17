@@ -127,3 +127,28 @@ swatches.forEach((swatch, index) => {
   })
   
 });
+
+// ------- Section Product -------
+const tl_product = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.section-product',
+    start: '0%',
+    end: '140%',
+    scrub: true,
+    pin: true,
+    markers: true
+  }
+})
+
+tl_product.fromTo(
+  '.product-video', 
+  { currentTime: 0 }, 
+  { currentTime: 3, duration: 1 }
+);
+
+tl_product.fromTo(
+  '.product-info-container p', 
+  { opacity: 0 }, 
+  { opacity: 1, stagger: .25, duration: .5},
+  '<'
+);
