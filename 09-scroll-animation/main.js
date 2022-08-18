@@ -7,7 +7,7 @@ const tl_header = gsap.timeline({
     start: '55%',
     end: '85%',
     scrub: true,
-    markers: true
+    // markers: true
   }
 });
 
@@ -21,7 +21,7 @@ const tl_hero = gsap.timeline({
     end: '100%',
     pin: true,
     pinSpacing: false,
-    markers: true
+    // markers: true
   }
 });
 
@@ -32,7 +32,7 @@ const tl_smoke = gsap.timeline({
     start: '-20%',
     end: '50%',
     scrub: true,
-    markers: { startColor: '#6420fb', endColor: 'yellowgreen'}
+    // markers: { startColor: '#6420fb', endColor: 'yellowgreen'}
   }
 });
 
@@ -48,7 +48,7 @@ const tl_smoke_remove = gsap.timeline({
     start: '0',
     end: '70%',
     scrub: true,
-    markers: { startColor: 'salmon', endColor: 'salmon'}
+    // markers: { startColor: 'salmon', endColor: 'salmon'}
   }
 });
 
@@ -64,7 +64,7 @@ const tl_split = gsap.timeline({
     trigger: '.section-split-phone',
     start: '-50%',
     end: '10%',
-    markers: true,
+    // markers: true,
     scrub: true
   }
 });
@@ -136,7 +136,7 @@ const tl_product = gsap.timeline({
     end: '140%',
     scrub: true,
     pin: true,
-    markers: true
+    // markers: true
   }
 })
 
@@ -152,3 +152,35 @@ tl_product.fromTo(
   { opacity: 1, stagger: .25, duration: .5},
   '<'
 );
+
+// ------- Section Portrait -------
+const tl_portrait = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.section-portrait',
+    start: '-50%',
+    end: '30%',
+    // markers: true,
+    scrub: true
+  }
+});
+
+tl_portrait.fromTo(
+  '.section-portrait .section-headings',
+  { y: 120 },
+  { y: '-40px' }
+);
+
+tl_portrait.fromTo(
+  '.portrait-wrapper',
+  { y: 120 },
+  { y: '-40px'},
+  '<'
+);
+
+tl_portrait.fromTo(
+  '.portrait-video',
+  { y: 80, scale: .8 },
+  { y: '-40px', scale: 1},
+  '<'
+);
+
