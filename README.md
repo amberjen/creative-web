@@ -53,6 +53,10 @@ movement: time
 
 <img src="./screenshots/08.gif" width="480" />
 
+
+### 09 Scroll Animation
+- Recreate Apple's product page scroll animation
+
 ## Resources
 - [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 - [Algebra Rules](http://algebrarules.com/)
