@@ -61,6 +61,8 @@ movement: time
 
 <img src="./screenshots/10.gif" width="480" />
 
+- Inspiration: [KPR](https://kprverse.com/)
+
 ## Resources
 - [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 - [Algebra Rules](http://algebrarules.com/)
