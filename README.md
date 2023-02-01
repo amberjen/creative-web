@@ -57,6 +57,10 @@ movement: time
 ### 09 Scroll Animation
 - Recreate Apple's product page scroll animation
 
+### 10 Hacker Text Effect
+
+<img src="./screenshots/10.gif" width="480" />
+
 ## Resources
 - [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 - [Algebra Rules](http://algebrarules.com/)
