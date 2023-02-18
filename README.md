@@ -63,6 +63,10 @@ movement: time
 
 - Inspiration: [KPR](https://kprverse.com/)
 
+### 11 Scroll 3D Ball
+- Blender + Web
+- GSAP + ScrollTrigger
+
 ## Resources
 - [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 - [Algebra Rules](http://algebrarules.com/)
